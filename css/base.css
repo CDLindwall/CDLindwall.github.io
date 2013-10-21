@@ -4,14 +4,103 @@
     padding:0;
 }
 
-.socialmedia {
-    float: right;
-    margin: 5px;
+/* Layout Rules */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 1000px;
+    margin: auto;
 }
+
+header nav {
+    display:block;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+footer {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    margin: 60px 0 10px 0;
+    text-align: center;
+}
+
+/* Heading Rules */
+
+header h1 {
+    text-align: center;
+    font-family: helvetica, arial, sans-serif; 
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 80px; /*TRouBLe */
+}
+
+body h1 {
+    color: #00c90d;
+    font-weight: 500;
+}
+
+body span {
+    margin: 30px 0px 20px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #00c90d;
+}
+
+/* Paragraph Rules */
+
+p {
+    font-family: helvetica, arial, sans-serif;
+    margin: 10px;
+}
+
+mark {
+    color: #bbbbbb;
+    background: none;
+}
+
+/* List Rules */
 
 ul {
     list-style-type: none;
+    display:block;
 }
+
+header ul li {
+    display: inline;
+}
+
+/* Link Rules */
+
+header a { 
+    color: #bbbbbb;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #33cccc;
+}
+header a:active {
+    text-decoration: underline;
+}
+
+body li a { 
+    color: #bbbbbb;
+    text-decoration: none;
+}
+body li a:hover {
+    color: #33cccc;
+}
+body li a:active {
+    text-decoration: underline;
+}
+
+/* Classes and Id Rules */
 
 #profile {
     float: left;
@@ -26,18 +115,12 @@ ul {
     margin-right: auto;
 }
 
-body {
-    font-family: helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 24px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-body h1 {
-    color: #00c90d;
-    font-weight: 500;
+#writingtitle {
+    font: helvetica, arial, sans-serif; 
+    font-size: 18px;
+    font-weight: 200;
+    padding: 5px 5px 10px 0;
+    color: #000000;
 }
 
 .tagline {
@@ -48,114 +131,11 @@ body h1 {
     text-align: center;
 } 
 
-p {
-    font-family: helvetica, arial, sans-serif;
-    margin: 10px;
-    
-}
-
-header { 
-    color: black;
-}
-
-header h1 {
-    text-align: center;
-    font-family: helvetica, arial, sans-serif; 
-    font-size: 60px;
-    font-weight: 400;
-    margin-top: 80px; /*TRouBLe */
-}
-
-header nav {
-    display:block;
-    text-align: center;
-    margin-top: 12px;
-    margin-bottom: 20px;
-}
-
-header nav ul {
-    display:block;   
-}
-
-header nav ul li {
-    display: inline;
-}
-
-header a { 
-    color: #bbbbbb;
-    margin-right: 20px;
-    text-decoration: none;
-}
-
-header a:link {}
-header a:visited {}
-header a:hover {
-    color: #33cccc;
-}
-header a:active {
-    text-decoration: underline;
-}
-header a:focus {}
-
-#writingtitle {
-    font: helvetica, arial, sans-serif; 
-    font-size: 18px;
-    font-weight: 200px;
-    padding: 5px 5px 10px 0;
-    color: #000000;
-}
-
-body span {
-    margin: 30px 0px 20px 20px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #00c90d;
-}
-
 .contact {
     text-align: center;
 }
 
-mark {
-    color: #bbbbbb;
-    background: none;
-}
-
-body li a { 
-    color: #bbbbbb;
-    text-decoration: none;
-}
-
-body li a:link {}
-body li a:visited {}
-body li a:hover {
-    color: #33cccc;
-}
-body li a:active {
-    text-decoration: underline;
-}
-body li a:focus {}
-
-article {
-    clear: both;
-    padding: 0 10px 0 10px;
-}
-
-article h1 {
-    font-size: 20px;
-    line-height: 44px;
-    margin-top: 4px;
-}
-
-article h2 {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 4px;
-}
-
-footer {
-    font-family: helvetica, arial, sans-serif;
-    font-size: 12px;
-    margin: 60px 0 10px 0;
-    text-align: center;
+.socialmedia {
+    float: right;
+    margin: 5px;
 }
