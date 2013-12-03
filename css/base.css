@@ -124,7 +124,7 @@ article li a:active {
 
 /* Classes and Id Rules */
 
-#bookshelf {
+#albert {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -176,6 +176,16 @@ article li a:active {
 .contact {
     text-align: center;
 }
+
+/* .submenu {
+    display: none;
+} 
+
+.submenu ul hover {
+    display: block;
+    color: red;
+} Trying to get a submenu to appear when hovered over */
+
 
 .socialmedia {
     float: right;
