@@ -20,7 +20,7 @@ header nav {
     display:block;
     text-align: center;
     margin-top: 12px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -37,7 +37,7 @@ header h1 {
     font-family: helvetica, arial, sans-serif; 
     font-size: 60px;
     font-weight: 400;
-    margin-top: 80px; /*TRouBLe */
+    margin-top: 50px; /*TRouBLe */
 }
 
 body h1 {
@@ -75,11 +75,21 @@ header ul li {
     display: inline;
 }
 
+article ul {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+article ul li {
+    display:inline;
+    margin: 0 10px 0 10px;
+}
+
 /* Link Rules */
 
 header a { 
     color: #bbbbbb;
-    margin-right: 20px;
+    margin: 0 10px 0 10px;
     text-decoration: none;
 }
 
@@ -101,7 +111,31 @@ body li a:active {
     text-decoration: underline;
 }
 
+article li a { 
+    color: #00c90d;
+    text-decoration: none;
+}
+article li a:hover {
+    color: #33cccc;
+}
+article li a:active {
+    text-decoration: underline;
+}
+
 /* Classes and Id Rules */
+
+#bookshelf {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#favoritebooks {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #profile {
     float: left;
