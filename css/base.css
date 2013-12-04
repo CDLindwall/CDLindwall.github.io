@@ -124,6 +124,13 @@ article li a:active {
 
 /* Classes and Id Rules */
 
+#bookshelf {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
 #endless {
     float: left;
     margin-right: 20px;
