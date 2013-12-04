@@ -217,7 +217,18 @@ article li a:active {
 
  @media screen and (max-width: 450px) 
 {
-    
+
+header h1 {
+    display: block;
+    text-height:14px;
+    }
+#bookshelf {
+    float: none;
+    margin-right: auto;
+    width:100%;
+    margin-left:auto;
+}    
+
 #endless {
     float: none;
     display:block;
