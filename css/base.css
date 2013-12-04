@@ -4,6 +4,7 @@
     padding:0;
     border:0;
 }
+/*In my CSS validator, it says there's an issue with the code above, but I haven't changed it at all since last time. I'm not sure what I should do?*/
 
 /* Layout Rules */
 
@@ -217,12 +218,21 @@ article li a:active {
  @media screen and (max-width: 600px) 
 {
 
-/*header nav {
+#profile {
+
+    float:none;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header nav {
     display: block;
-}*/
+    margin-left:auto;
+    margin-right:auto;
+}
     
 .videos {
     float:none;
     width:100%;
-    
 }
