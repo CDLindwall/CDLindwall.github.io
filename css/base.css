@@ -196,7 +196,7 @@ article li a:active {
 
 .tagline {
     font-family: helvetica, arial, sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 600;
     color: #33cccc;
     text-align: center;
@@ -265,5 +265,5 @@ header nav {
 .videos {
     float:none;
     width:100%;
-}
+  }
 }
