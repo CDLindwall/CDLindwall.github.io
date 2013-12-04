@@ -195,6 +195,11 @@ article li a:active {
     text-align: center;
 } 
 
+.writing-title {
+ line-height: 45px;
+
+}
+
 /* .submenu {
     display: none;
 } 
