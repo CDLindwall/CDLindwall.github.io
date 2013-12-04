@@ -60,7 +60,7 @@ p {
 }
 
 mark {
-    color: #bbbbbb;
+    color: #696969;
     background: none;
 }
 
@@ -88,7 +88,7 @@ article ul li {
 /* Link Rules */
 
 header a { 
-    color: #bbbbbb;
+    color: #696969;
     margin: 0 10px 0 10px;
     text-decoration: none;
 }
@@ -101,7 +101,7 @@ header a:active {
 }
 
 body li a { 
-    color: #bbbbbb;
+    color: #696969;
     text-decoration: none;
 }
 body li a:hover {
@@ -124,13 +124,6 @@ article li a:active {
 
 /* Classes and Id Rules */
 
-#albert {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
 #endless {
     float: left;
     margin-right: 20px;
@@ -142,6 +135,10 @@ article li a:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#interview {
+    background-color: #bbbbbb;
 }
 
 #profile {
@@ -165,6 +162,15 @@ article li a:active {
     color: #000000;
 }
 
+.contact {
+    text-align: center;
+}
+
+.socialmedia {
+    float: right;
+    margin: 5px;
+}
+
 .tagline {
     font-family: helvetica, arial, sans-serif;
     font-size: 16px;
@@ -172,10 +178,6 @@ article li a:active {
     color: #33cccc;
     text-align: center;
 } 
-
-.contact {
-    text-align: center;
-}
 
 /* .submenu {
     display: none;
@@ -185,9 +187,3 @@ article li a:active {
     display: block;
     color: red;
 } Trying to get a submenu to appear when hovered over */
-
-
-.socialmedia {
-    float: right;
-    margin: 5px;
-}
