@@ -137,10 +137,6 @@ article li a:active {
     margin-right: auto;
 }
 
-#interview {
-    background-color: #bbbbbb;
-}
-
 #profile {
     float: left;
     margin-right: 20px;
@@ -166,6 +162,26 @@ article li a:active {
     text-align: center;
 }
 
+.resume h1 {
+    font-size:24px;
+    font-weight:700px;
+    text-align: left;
+    color: #00c90d;
+}
+
+.resume h2 {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #33cccc;
+    margin: 10px 30px 0px 0px;
+}
+
+.resume p {
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
 .socialmedia {
     float: right;
     margin: 5px;
@@ -173,7 +189,7 @@ article li a:active {
 
 .tagline {
     font-family: helvetica, arial, sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     color: #33cccc;
     text-align: center;
