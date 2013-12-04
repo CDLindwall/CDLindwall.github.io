@@ -4,7 +4,6 @@
     padding:0;
     border:0;
 }
-/*In my CSS validator, it says there's an issue with the code above, but I haven't changed it at all since last time. I'm not sure what I should do?*/
 
 /* Layout Rules */
 
@@ -171,14 +170,14 @@ article li a:active {
 
 .resume h1 {
     font-size:24px;
-    font-weight:700px;
+    font-weight:700;
     text-align: left;
     color: #00c90d;
 }
 
 .resume h2 {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #33cccc;
     margin: 10px 30px 0px 0px;
 }
