@@ -29,7 +29,6 @@ footer {
     margin: 60px 0 10px 0;
     text-align: center;
 }
-
 /* Heading Rules */
 
 header h1 {
@@ -204,15 +203,13 @@ article li a:active {
 } 
 
 .writing-title {
- line-height: 45px;
+    line-height: 45px;
 
 }
 
-/* .submenu {
-    display: none;
-} 
-
-.submenu ul hover {
-    display: block;
-    color: red;
-} Trying to get a submenu to appear when hovered over */
+.videos {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
